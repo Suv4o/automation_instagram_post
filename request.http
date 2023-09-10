@@ -1,0 +1,9 @@
+### Post an image
+POST {{baseUrl}}/instagram-post HTTP/1.1
+Authorization: Bearer {{token}}
+content-type: application/json
+
+{
+    "file_url": "https://cloud.appwrite.io/v1/storage/buckets/64e5cc958cab7d04ed70/files/359197b8-f64e-43ab-9a5d-91e33a33ff78/view?project=64e5c98a5b64fe8eac18",
+    "description": "Heyy"
+}
